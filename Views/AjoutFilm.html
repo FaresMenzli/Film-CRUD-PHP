@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Film</title>
+    <script type="text/javascript" src="JS/ajouterfilm.js"></script>
+</head>
+<body>
+    <header ><img src="Sans titre.png" alt="" height="50px">
+       
+        <p>Movie-House</p>
+
+    </header>
+
+  
+    <main id="mainajout">
+        
+        <nav class="nav"><p> <a href="index.html">Acceuil</a></p><p><a href="Films.php">Liste des films</a> </p><p class="actuelle"><a href="#" >Ajouter un film</a></p></nav>
+        <h1 class="center">Ajouter un Film</h1>
+        <div id="tabajoutfilm">
+          <form method="POST" action="ajoutFilm.php">
+            <table>
+              
+              <tbody>
+                <tr>
+                  
+                    <td>
+                      
+                      <span class="shadows"> E-mail :</span>
+                    </td>
+                    <td>
+                      <input placeholder="exemple@esprit.tn" type="email" name="Email"id="email"></input>
+                    </td>
+                  </tr>
+                  <tr>
+                  
+                    <td>
+                      
+                      <span class="shadows">  Date de naissance :</span>
+                    </td>
+                    <td>
+                      <input placeholder="01/01/2002" type="date"   name="DateNaiss" id="DateN"></input>
+                    </td>
+                  </tr>
+                  <tr>
+                  
+                    <td>
+                      
+                      <span class="shadows"> Sexe :</span>
+                    </td>
+                    <td>
+                    <input type="radio" id="Homme"
+                       name="Sexe" value="Homme">
+                       <label for="Homme">Homme</label>
+                       <input type="radio" id="Femme"
+                       name="Sexe" value="Femme">
+                       <label for="Femme">Femme</label></td>
+
+                  </tr>
+                <tr>
+                  
+                  <td>
+                    
+                    <span class="shadows"> Titre de Film :</span>
+                  </td>
+                  <td>
+                    <input placeholder="Titre..." name="FilmTiltle"id="Titre"></input>
+                  </td>
+                </tr>
+                <tr>
+                  
+                    <td>
+                      
+                      <span class="shadows"> Date de Sortie :</span>
+                    </td>
+                    <td>
+                      <input  type="date" name="DateFilm"id="dates"></input>
+                    </td>
+                  </tr>
+                <tr>
+                  
+                  <td>
+                      
+                    
+                    <span class="shadows">URL Img :</span>
+                  </td>
+                  <td>
+                    <input placeholder="ImageURL" type="text" name="UrlFilm" id="newimg"></input>
+                  </td>
+                </tr>
+                <tr>
+                  
+                  <td>
+                    
+                    <span class="shadows"> Description :</span>
+                  </td>
+                  <td>
+                    
+                    <input placeholder="Description" name ="DescriptionFilm"id="newdesc"></input>
+                  </td>
+                </tr>
+                
+                <tr>
+                  
+                  <td>
+                    <span class="shadows"> Note :</span>
+                  </td>
+                  <td>
+                    
+                    <select  name="NoteFilm" id="newrating">
+                        
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </td>
+                </tr>
+               
+              </tbody>
+              
+            </table>
+          
+           
+
+          </div>
+          <div class="button" >
+         
+            <input type="submit" value="Envoyer" onclick="verif()" > 
+
+        </div>
+      </form>
+        </main>
+    <footer>
+    </div>
+    <h2 id="contactus">Contact Us</h2>
+    <div class="footer-main">  
+        
+        <table class="table"  >
+   <tr>
+       <figure> 
+           <td> </td>
+           <td><img src="Logo/61045.svg" alt="githublogo" width="80" height="80">
+            <figcaption> Facebook</figcaption></td> 
+            <td> </td>
+        
+            <td> <img src="Logo/instagram-logo-A807AD378B-seeklogo.com.png" alt="linkedinlogo"width="70" height="80">
+                <figcaption> Instagram</figcaption></td> 
+           <td> </td>
+       
+           <td>  <img src="Logo/5ca98c73b2bb7a02bf8350933c7ca443.png" alt="codewarslogo"width="90" height="80">
+            <figcaption> Twiter</figcaption></td> 
+            <td> </td>
+        </figure>
+    </tr>
+    </table>
+    </div>
+    </footer>
+</body>
+</html>

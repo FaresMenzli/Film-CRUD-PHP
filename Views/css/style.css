@@ -1,0 +1,266 @@
+ header {
+    
+  
+    font-size :20px;
+    margin-Bottom: 40px;
+    margin-top: -8px;
+    margin-left: -8px;
+    color: RGB(235,104,11);
+
+    background-color: RGB(36,36,36) /* RGB(5,172,157) */;
+    display: flex;
+    justify-content: space-between;
+    padding-Bottom: 20px;
+    font-family: 'Permanent Marker', Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-Top: 20px;
+    } 
+    body {
+      margin :0 ;
+  }
+    main{
+      background-image: url(https://wwcsff.com/wp-content/uploads/2019/05/cropped-0-0-0-1.jpg);
+     
+    }
+    .nav{
+      display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+   
+    background-color: RGB(235,104,11);
+   margin-left: -8px;
+    }
+    .nav p a {
+      color:white;
+      text-decoration: none;
+      /* //font-family:'Sans Serif' ; */
+     /*  font-family: 'Krona One', sans-serif; */
+      font-family: 'Montserrat', sans-serif;
+    
+      
+      
+    }
+    .actuelle {
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+    .container {
+      margin-top: 80px;
+      padding-bottom: 80px;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      justify-content: space-evenly;
+      grid-gap: 100px;
+      margin-bottom: 0px;
+      
+      justify-items: center;}
+      
+      .modsup{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3px;
+        
+      }
+      .modif{
+        margin-top:80px;
+        display:flex;
+        justify-content:center;
+        padding-top:20px;
+         transform: scale(1.5);
+         padding-bottom:200px;
+      }
+     
+      .Tastegelb{
+        background-color: orange; 
+        border-radius: 50%;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        
+      }
+      .Tasterot{
+        background-color: red; 
+        border-radius: 50%;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        
+      }
+      .Tastegelb:hover{
+        background-color:white;
+        color: orange;
+      }
+       .Tasterot:hover{
+          background-color: white; 
+          color:red;
+          
+  
+        }
+      .moviecard {
+        border-radius: 30px;
+        display: grid;
+        grid-template-rows: 100px 320px 100px 50px;
+        grid-template-columns: 100%;
+      
+        background-color: RGB(0,0,0);
+        height: 600px;
+        width: 300px;
+       box-shadow: white;
+        box-shadow: 5px 5px 10px;
+        
+      }
+      .moviecard:hover {
+        transform: scale(1.1); }
+        .cardtitre{
+        
+        margin-top: 40px;
+        color: white;
+        height: 100px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        
+      }
+      .desc {
+        padding-top:30px;
+        color: white;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+      }
+      
+      .rating {
+       border-radius: 0px 0px 30px 30px;
+        background-color: gold;
+        height: 50px;
+        font-size: 30px;
+         text-align: center; 
+        margin-top: 0px;
+        font-family: 'Permanent Marker', Cochin, Georgia, Times, 'Times New Roman', serif;
+
+       
+      
+       
+      }
+      .footer-main{
+        background-color: RGB(235,104,11);
+
+        text-align: center;
+       
+       /*  padding-top: 20px;
+        padding-bottom: 15px; */
+        
+    }
+    .table {
+      margin-top: -16px;
+      
+      padding: 40px 0 40px 0 ;
+      width: 100%;
+  
+  padding-left: 100px;
+  
+  padding-right: 100px;
+      
+  }
+  #contactus{
+    padding-right: 0px;
+    font-family:   'Pacifico';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: RGB(36,36,36);
+    color : blanchedalmond;
+    font-size: 50px;
+    margin-bottom: 0px;
+   padding-bottom: 10px;
+    text-align: center;
+    
+    
+}
+#tabajoutfilm{
+  margin-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  color:blanchedalmond;
+  
+}
+#tabajoutfilm table {
+  background-color: RGB(36,36,36);
+ padding :0 20px 0 20px;
+ box-shadow: 5px 5px 100px;
+ 
+
+}
+#tabajoutfilm table:hover{
+  transform: scale(1.5);
+}
+
+#mainindex , #mainajout{
+  height: 700px;
+}
+.center{
+  margin-top: 60px;
+  padding-bottom: 40px;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+letter-spacing: 10px;
+color: blanchedalmond;
+
+}
+.center2{
+  margin-top: 60px;
+  padding-bottom: 40px;
+text-align: center;
+font-family: 'Indie Flower', cursive;
+letter-spacing: 2px;
+color: blanchedalmond;
+}
+
+.shadows{
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 2px;
+}
+.button input {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -23px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.button input:hover {
+
+  background-color: black; /* Green */
+  color: white;
+}
+.button{
+  padding: 40px ;
+ 
+
+ display: flex;
+ justify-content: center;
+}
+  /*   header , .project-header , .footer-header{
+
+        background-color: rgba(128, 128, 128, 0.734);
+        display: flex;
+        justify-content: space-around;
+        
+    } */
